@@ -1,4 +1,5 @@
 #include <AutoItConstants.au3>
+TrayTip("Life is Feudal", "Gathering Macro Loaded", 1);
 HotKeySet("{F4}", "addGatheringMinutes")
 HotKeySet("+{F4}", "subtractGatheringMinutes")
 HotKeySet("{F5}", "startGathering")
